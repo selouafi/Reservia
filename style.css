@@ -1,3 +1,209 @@
-h1 {
-    color: red;
+html {
+    font-family: 'Raleway' ;
+}
+
+@font-face {
+
+    font-family: 'Raleway';
+    src: url(fonts/Raleway-Black.ttf)
+            }
+
+header {
+
+    display: flex;
+    
+    justify-content: space-around;
+    margin: auto;
+
+        }
+
+ul {
+
+ display: inline;
+ list-style: none;
+ 
+
+}
+.conteneur {
+
+display: flex;
+justify-content: space-between;
+
+
+
+}
+.Hebergements {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color:#F2F2F2;
+    width: 66%;
+    padding: 2%;
+    align-self:baseline;
+    
+    
+}
+
+.droite
+{
+    
+    background-color:#F2F2F2;
+}
+
+.Heb1 {
+    
+    
+    border-radius: 30px ;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: white;
+    border-width: thick;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+padding-right: 5px;
+
+   
+    
+
+}
+
+.Heb2 {
+    border-radius: 30px ;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: white;
+    border-width: thick;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+padding-right: 5px;
+
+    
+
+}
+
+.Heb3 {
+    border-radius: 30px ;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: white;
+    border-width: thick;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+padding-right: 5px;
+
+    
+
+}
+
+.Heb4 {
+    border-radius: 30px ;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: white;
+    border-width: thick;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+padding-right: 5px;
+
+    
+
+}
+
+.Heb5 {
+    border-radius: 30px ;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: white;
+    border-width: thick;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+padding-right: 5px;
+
+    
+
+}
+
+.Heb6 {
+    border-radius: 30px ;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: white;
+    border-width: thick;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+padding-right: 5px;
+
+    
+
+}
+
+#imgheb {
+
+   max-height: 250px;
+   max-width: 500px;
+   min-width: 250px;
+   min-height: 250px;
+   margin: auto;
+   border-top-left-radius:  30px;
+   border-top-right-radius: 30px;
+
+	
+
+
+}
+
+#bluestar {
+    color: #0065FC;
+}
+
+#greystar {
+
+    color: grey;
+}
+
+#aside {
+
+    border-radius: 30px ;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: white;
+    border-width: thick;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+padding-right: 5px;
+display: flex;
+
+}
+
+.droite {
+
+    {
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        background-color:#F2F2F2;
+        width: 66%;
+        padding: 2%;
+        align-self:baseline;
+    }
+
+}
+
+footer {
+
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    
 }
