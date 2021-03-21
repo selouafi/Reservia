@@ -24,33 +24,36 @@ ul {
  
 
 }
-.conteneur {
+.Conteneur2 {
 
-display: flex;
-justify-content: space-between;
+    display: flex;
+    align-content: space-around;
+
+
+
+
+
+
+
 
 
 
 }
-.Hebergements {
+.Gauche:nth-child(1) {
 
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
+   
     background-color:#F2F2F2;
-    width: 66%;
+    
     padding: 2%;
-    align-self:baseline;
+    
+    flex: 3;
+    border-radius: 30px ;
+    
     
     
 }
 
 .droite
-{
-    
-    background-color:#F2F2F2;
-}
 
 .Heb1 {
     
@@ -60,10 +63,11 @@ justify-content: space-between;
     border-style: solid;
     border-color: white;
     border-width: thick;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
     padding-left: 5px;
 padding-right: 5px;
+
 
    
     
@@ -76,10 +80,11 @@ padding-right: 5px;
     border-style: solid;
     border-color: white;
     border-width: thick;
-    padding-top: 5px;
-    padding-bottom: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
     padding-left: 5px;
 padding-right: 5px;
+
 
     
 
@@ -91,10 +96,11 @@ padding-right: 5px;
     border-style: solid;
     border-color: white;
     border-width: thick;
-    padding-top: 5px;
-    padding-bottom: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
     padding-left: 5px;
 padding-right: 5px;
+
 
     
 
@@ -106,8 +112,8 @@ padding-right: 5px;
     border-style: solid;
     border-color: white;
     border-width: thick;
-    padding-top: 5px;
-    padding-bottom: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
     padding-left: 5px;
 padding-right: 5px;
 
@@ -121,8 +127,8 @@ padding-right: 5px;
     border-style: solid;
     border-color: white;
     border-width: thick;
-    padding-top: 5px;
-    padding-bottom: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
     padding-left: 5px;
 padding-right: 5px;
 
@@ -136,8 +142,8 @@ padding-right: 5px;
     border-style: solid;
     border-color: white;
     border-width: thick;
-    padding-top: 5px;
-    padding-bottom: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
     padding-left: 5px;
 padding-right: 5px;
 
@@ -147,13 +153,10 @@ padding-right: 5px;
 
 #imgheb {
 
-   max-height: 250px;
-   max-width: 500px;
-   min-width: 250px;
-   min-height: 250px;
-   margin: auto;
-   border-top-left-radius:  30px;
+    width: 400px; height: 200px;
+	border-top-left-radius:  30px;
    border-top-right-radius: 30px;
+	object-fit:cover;
 
 	
 
@@ -206,4 +209,93 @@ footer {
     flex-direction: row;
     justify-content:space-around;
     
+}
+
+img {
+
+    width: 400px; height: 200px;
+	border-top-left-radius:  30px;
+   border-top-right-radius: 30px;
+	object-fit:cover;
+}
+
+a {
+
+    text-decoration:none;
+}
+
+.gaucheg {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    align-items:stretch;
+    padding: 2%;
+    margin-bottom: 10px;
+    
+   
+
+
+}
+
+.gauched:nth-child(2)
+{
+    
+   
+    flex: 1;
+    border-radius: 30px ;
+
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+background-color: #F2F2F2;
+align-items: center;
+
+}
+
+
+
+.pop1 {
+
+    border-radius: 30px ;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: white;
+    border-width: thick;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+padding-right: 5px;
+
+}
+
+.pop2 {
+
+    border-radius: 30px ;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: white;
+    border-width: thick;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+padding-right: 5px;
+
+}
+
+.pop3 {
+
+    border-radius: 30px ;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: white;
+    border-width: thick;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+padding-right: 5px;
+
 }
