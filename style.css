@@ -17,28 +17,19 @@ header {
 
         }
 
-ul {
+ul  {
 
  display: inline;
  list-style: none;
  
+    }
 
-}
 .Conteneur2 {
 
     display: flex;
     align-content: space-around;
-
-
-
-
-
-
-
-
-
-
-}
+    
+            }
 .Gauche:nth-child(1) {
 
    
@@ -46,18 +37,14 @@ ul {
     
     padding: 2%;
     
-    flex: 3;
+    flex: 4;
     border-radius: 30px ;
     
     
     
 }
 
-.droite
-
-.Heb1 {
-    
-    
+.Heb {
     border-radius: 30px ;
     background-color: rgb(255, 255, 255);
     border-style: solid;
@@ -66,101 +53,7 @@ ul {
     padding-top: 3px;
     padding-bottom: 3px;
     padding-left: 5px;
-padding-right: 5px;
-
-
-   
-    
-
-}
-
-.Heb2 {
-    border-radius: 30px ;
-    background-color: rgb(255, 255, 255);
-    border-style: solid;
-    border-color: white;
-    border-width: thick;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    padding-left: 5px;
-padding-right: 5px;
-
-
-    
-
-}
-
-.Heb3 {
-    border-radius: 30px ;
-    background-color: rgb(255, 255, 255);
-    border-style: solid;
-    border-color: white;
-    border-width: thick;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    padding-left: 5px;
-padding-right: 5px;
-
-
-    
-
-}
-
-.Heb4 {
-    border-radius: 30px ;
-    background-color: rgb(255, 255, 255);
-    border-style: solid;
-    border-color: white;
-    border-width: thick;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    padding-left: 5px;
-padding-right: 5px;
-
-    
-
-}
-
-.Heb5 {
-    border-radius: 30px ;
-    background-color: rgb(255, 255, 255);
-    border-style: solid;
-    border-color: white;
-    border-width: thick;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    padding-left: 5px;
-padding-right: 5px;
-
-    
-
-}
-
-.Heb6 {
-    border-radius: 30px ;
-    background-color: rgb(255, 255, 255);
-    border-style: solid;
-    border-color: white;
-    border-width: thick;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    padding-left: 5px;
-padding-right: 5px;
-
-    
-
-}
-
-#imgheb {
-
-    width: 400px; height: 200px;
-	border-top-left-radius:  30px;
-   border-top-right-radius: 30px;
-	object-fit:cover;
-
-	
-
-
+    padding-right: 5px; 
 }
 
 #bluestar {
@@ -189,7 +82,6 @@ display: flex;
 
 .droite {
 
-    {
 
         display: flex;
         flex-direction: row;
@@ -199,7 +91,7 @@ display: flex;
         width: 66%;
         padding: 2%;
         align-self:baseline;
-    }
+
 
 }
 
@@ -211,9 +103,10 @@ footer {
     
 }
 
-img {
+.imgheb {
 
-    width: 400px; height: 200px;
+    width: 400px;
+    height: 200px;
 	border-top-left-radius:  30px;
    border-top-right-radius: 30px;
 	object-fit:cover;
@@ -229,7 +122,7 @@ a {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     
     align-items:stretch;
     padding: 2%;
@@ -269,6 +162,7 @@ align-items: center;
     padding-bottom: 3px;
     padding-left: 5px;
 padding-right: 5px;
+display: flex;
 
 }
 
@@ -283,6 +177,7 @@ padding-right: 5px;
     padding-bottom: 3px;
     padding-left: 5px;
 padding-right: 5px;
+display: flex;
 
 }
 
@@ -297,5 +192,16 @@ padding-right: 5px;
     padding-bottom: 3px;
     padding-left: 5px;
 padding-right: 5px;
+display: flex;
+
+}
+
+.imgpop {
+
+    width: 100px; height: 150px;
+	border-top-left-radius:  30px;
+   border-bottom-left-radius: 30px;
+   margin-right: 10px;
+	object-fit:cover;
 
 }
